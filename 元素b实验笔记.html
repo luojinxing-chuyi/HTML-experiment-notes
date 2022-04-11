@@ -6,14 +6,36 @@
         <link rel="stylesheet" href="styles/元素b实验笔记.css">
     </head>
     <body>
-        <h1>&lt;b&gt;/元素b实验笔记</h1>
+        <p>
+            <strong><a href="HTML元素实验笔记首页.html">HTML元素实验笔记首页</a></strong>
+        </p>
+        <hr>
+        <h1>&lt;b&gt;：b元素简介</h1>
+        <hr>
         <p name="元素简介"><strong>&lt;b&gt;引起注意元素</strong></p>
         <p name="元素简介">HTML标记元素&lt;b&gt;用于将读者的注意力吸引到元素的内容上，没有赋予特别重要的意义。以前也称为粗体元素，大多数浏览器任然以粗体显示文本。但是，您不应该使用&lt;b&gt;来设置文本样式，您应该使用CSS font-weight属性来创建粗体文本，或者使用&lt;strong&gt;元素来加粗表示文本特别重要。</p>
         <p name="元素简介">使用说明</p> 
         <ul>
-            <li></li>
+            <li>将&lt;b&gt;用于摘要的关键字等情况，评论中的产品名称，或其他文本范围，其典型表示会以粗体显示（但不包含任何特殊重要性）。</li>
+            <li>不要将&lt;b&gt;与&lt;strong&gt;、&lt;em&gt;或&lt;mark&gt;混淆。&lt;strong&gt;表示具有一定重要性的文本，&lt;em&gt;强调文本，而&lt;mark&gt;表示具有一定相关性的文本。&lt;b&gt;不传达这种特殊的语义信息；只有在没有其他合适的时候才使用。</li>
+            <li>最好在&lt;b&gt;上使用class属性，以便根据需要传达额外的语义信息（例如：&lt;b class="lead"&gt;用于段落中的第一句）。如果您的风格需求发生变化，这可以轻松地管理&lt;b&gt;的多个用例，无需更改其在HTML中的所有用途。</li>
+            <li>从历史上看，&lt;b&gt;元素旨在使文本变为粗体。自 HTML4 以来，样式信息已被弃用，因此 &lt;b&gt;元素的含义已更改。如果使用 &lt;b&gt;元素没有语义目的，则应使用值为“bold”的 CSS font-weight 属性来使文本变为粗体。</li>  
+        </ul>
+        <hr>
+   <h1>b元素实验笔记</p></h1>
+   <hr>
+   <h2>b元素实验页面显示</h2>
+   <p>本文介绍了几个<b class="keywords">text-level（文本级）</b>元素。</p>
+   <p>它解释了它们的在<b class="keywords">HTML</b>文档中的用法。</p>
+   <p>关键字以元素默认的样式显示，<b>可能是粗体</b>。</p>
+   <hr>
 
-         </ul>
+   <h2>b元素实验HTML标记</h2>
+   <p>&lt;p&gt;本文介绍了几个&lt;b class="keywords"&gt;text-level（文本级）&lt;/b&gt;元素。&lt;/p&gt;</p>
+   <p>&lt;p&gt;它解释了它们的在&lt;b class="keywords"&gt;HTML&lt;/b&gt;文档中的用法。&lt;/p&gt;</p>
+   <p>&lt;p&gt;关键字以元素默认的样式显示，&lt;b&gt;可能是粗体&lt;/b&gt;。&lt;/p&gt;</p>
+   
+
 
 
         <script src="scripts/元素b实验笔记.js"></script>
