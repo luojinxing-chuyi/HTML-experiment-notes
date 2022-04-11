@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>元素bdi实验笔记</title>
+        <link rel="stylesheet" href="styles/元素bdi实验笔记.css">
+    </head>
+    <body>
+        <p>
+            <strong>
+                <a href="HTML元素实验笔记首页.html">HTML元素实验笔记首页</a>
+            </strong>
+        </p>
+        <hr>
+        <h1>&lt;bdi&gt;：bdi元素简介</h1>
+        <p name="元素简介"><b class="keywords">&lt;bdi&gt;：双向隔离元素</b></p>
+        <p name="元素简介">HTML&lt;bdi&gt;元素告诉浏览器的双向算法将包含的文本与其周围的文本隔离开来。当网站动态插入一些文本并且不知道所插入文本的方向时，它特别有用。</p>
+        <h1>bdi元素实验笔记</h1>
+        <h2>bdi元素实验页面显示</h2>
+        <p>这里需要一个对比实验来说明：阿拉伯人蒂兹·斯米获得比赛第一名</p>
+        <p>使用p元素标记出来的结果：</p>
+        <p>تیز سمی：1st place</p>
+        <p>使用bdi元素标记出来的结果</p>
+        <p><bdi>تیز سمی</bdi>:1st place</p>
+        <h2>bdi元素实验HTML标记</h2>
+        <p>&lt;p&gt;这里需要一个对比实验来说明：阿拉伯人蒂兹·斯米获得比赛第一名&lt;/p&gt;</p>
+        <p>&lt;p&gt;使用p元素标记出来的结果：&lt;/p&gt;</p>
+        <p>تیز سمی：1st place(没有办法标记出正确的）</p>
+        <p>&lt;p&gt;使用bdi元素标记出来的结果&lt;/p&gt;</p>
+        <p>&lt;p&gt;&lt;bdi&gt;<bdi>تیز سمی</bdi>&lt;bdi&gt;:1st place&lt;/p&gt;</p>
+    <script src="scripts/元素bdi实验笔记.js"></script>
+    </body>
+</html>
