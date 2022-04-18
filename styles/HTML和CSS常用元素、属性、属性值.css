@@ -1,0 +1,21 @@
+body{
+    line-height: normal;
+}
+span.element{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.attribute{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+span.introduction{
+    color: blueviolet;
+    font-size: 15px;
+}
+a{
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
