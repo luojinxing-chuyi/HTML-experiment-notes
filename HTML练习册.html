@@ -3,182 +3,221 @@
     <head>
         <meta charset="UTF-8">
         <title>HTML练习册</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="styles/HTML练习册.css">
     </head>
-    <body style="background-color: AliceBlue;">
-         <h2>HTML样式</h2>
+    <body style="background-color: silver;">
+     <header>
+        <h1>HTML练习册</h1>
+     </header>
+         <h2>HTML CSS</h2>
+         <hr>
+         <h3>style ：定义样式定义</h3>
          <ol>
              <li>background-color属性为元素定义了背景颜色。
-                 <pre>style=background-color: red</pre> 
-                 拼写练习：<input type="text">
+                 <pre>style="background-color: red"</pre> 
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>font-fami、color、以及font-size属性分别定义元素中文本的字体系列、元素、字体尺寸。
                  <pre>style="font-family:verdana"</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
                  <pre>style="font-family:arial;color:red;font-size:20px;"</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>text-align属性规定了元素中文本的水平对齐方式。
                  <pre>style="text-align:center"</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+         </ol>
+         <h3>link ：定义资源引用。</h3>
+         <ol>
+             <li>href属性规定被链接文档的位置(URL)。
+                 <pre>link href="www.goole.com"</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+             <li>hreflang属性规定被链接文档中文本的语言。
+                 <pre>link href="" rel="" charset="UTF-8" hreflang="zh-Hans"</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+             <li>media属性规定被链接文档将显示在什么设备上。用于为不同的媒介类型规定不同的样式。
+                 <pre>link rel="stylesheet" type="text/css" href="print.css" media="print"</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+             <li>rel属性规定当前文档与被链接文档之间的关系。
+                 <pre>link rel="contens" type="text" href=""</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+             <li>sizes 属性规定被链接资源的尺寸。只有当被链接资源是图标时 (rel="icon")，才能使用该属性。该属性可接受多个值。值由空格分隔。
+                 <pre>link rel="icon" href="" type="text" sizes="16×16"</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
+             </li>
+             <li>type 属性规定被链接文档的 MIME 类型。该属性最常见的 MIME 类型是 "text/css"，该类型描述样式表。
+                 <pre>link rel="stylesheet" type="text/css" href="theme.css"</pre>
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
          </ol>
          <hr>
          <h2>HTML文本格式化</h2>
+         <hr>
          <h3>基于内容含义的样式</h3>
          <ol>
             <li><abbr title="这是元素abbr">这是元素abbr</abbr>:定义缩写。
                  <pre>abbr title="这是元素abbr"</pre>
-                 拼写练习： <input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><cite>这是元素cite</cite> ：标签通常表示它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题。按照惯例，引用的文本将以斜体显示。
                  <pre>cite</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><code>这是元素code</code> ：定义计算机代码文本。标签用于表示计算机源代码或者其他机器可以阅读的文本内容。
                  <pre>code</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><dfn>标签可标记那些对特殊术语或短语的定义。现在流行的浏览器通常用斜体来显示 <dfn> 中的文本。将来，<dfn> 还可能有助于创建文档的索引或术语表。</dfn>
                  <pre>dtn</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><em>这是元素em</em> ：定义着重文字。标签告诉浏览器把其中的文本表示为强调的内容。对于所有浏览器来说，这意味着要把这段文字用斜体来显示。
                  <pre>em</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><kbd>这是元素kbd</kbd> ：定义键盘文本。它表示文本是从键盘上键入的。它经常用在与计算机相关的文档或手册中。
                  <pre>kbd</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><samp>这是元素samp</samp> ：定义计算机代码样本。
                  <pre>samp</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><strong>这是元素strong</strong>:定义加重语气。strong标签和 em 标签一样，用于强调文本，但它强调的程度更强一些。
                  <pre>strong</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><var>这是元素var</var> ：定义变量。您可以将此标签与 pre 及 code标签配合使用。
                  <pre>var</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>这是元素address:元素address标签定义文档或文章的作者/拥有者的联系方式信息。元素address位于body元素内表示文档的联系信息， address元素位于article元素内表示文章的联系信息。
                  <pre>address</pre>
-                 拼写练习 :<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><blockquote>这是元素blockquote:标签定义块引用。blockquote 与 /blockquote 之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。</blockquote>
                  <pre>blockquote</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><q>这是元素q</q>:标签定义短的引用。浏览器经常在引用的内容周围添加引号，必要时可以添加属性规定应用来源。
                  <pre>q cite=""</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>这是元素pre ：预格式文本。<pre>它保留了   空格和
                  换行，适合显示计算机代码。</pre>
                  <pre>pre</pre>
-                 拼写练习:<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
          </ol>   
          <h3>基于物理外形的样式：包括粗体(bold)、斜体(italic)、等宽(monospaced)、下划线(underlined)、删除线(strikethrough)、放大(larger)、缩小(smaller)、上标(superscripted)和下标(subscripted)文本。这些标签是：</h3>
          <ol>
              <li><b>这是元素b</b> ：定义粗体文本，粗体(bold)。
                  <pre>b</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><big>这是元素big</big> ：定义大号字，标签呈现大号字体效果。
                  <pre>big</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><i>这是元素i</i> ：定义斜体字标签显示斜体文本效果。
                  <pre>i</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><small>这是元素small</small> ：定义小号字，标签呈现小号字体效果。
                  <pre>small</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>这是元素<sub>sub</sub> ：标签可定义下标文本。
                  <pre>sub</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li>这是元素<sup>sup</sup> ：标签可定义上标文本。
                  <pre>sup</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><tt>这是元素tt</tt> ：定义打字机代码，标签呈现类似打字机或者等宽的文本效果。
                  <pre>tt</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><bdo dir="rtl">这是元素bdo</bdo>:定义文字方向
                  <pre>bdo dir="rtl"</pre>
-                 拼写练习：<input type="">
+                 拼写练习：<input type="text"> <input type=" text"> <input type="text">
              </li>
              <li><ins>这是元素ins</ins> ：定义插入字。
                  <pre>ins</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li>
              <li><del>这是元素del</del> ：定义删除字。
                  <pre>del</pre>
-                 拼写练习：<input type="text">
+                 拼写练习：<input type="text"> <input type="text"> <input type="text">
              </li> 
             </ol>
             <hr>
          <h2>浏览器支持的颜色名合集</h2>
+         <hr>
          <ol>
             <li style="background-color:black;"><span style="color:white">black ：黑色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:gray"><span style="color:white">gray :灰色<br>
-                拼写练习:</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:silver"><span style="color:black">silver ：银色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:white"><span style="color:black">white ：白色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <hr>
             <li style="background-color:navy"><span style="color:white">navy(navy blue) ：海军蓝<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:blue;"><span style="color:white">blue ：蓝色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:teal"><span style="color:white">teal(cyan green) ：青绿色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:aqua;"><span style="color:black">aqua ：湖绿色<br>
-                拼写练习：</span><input type="">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <hr>
             <li style="background-color:green"><span style="color:white">green :绿色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:olive"><span style="color:white">olive ：橄榄绿<br>
-                拼写练习：</span><input type="">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:lime"><span style="color:black">lime(lime green) :青柠绿<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:yellow"><span style="color:black">yellow ：黄色<br>
-                拼写练习：</span><input type="">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <hr>
             <li style="background-color:maroon"><span style="color:white">maroon :紫褐色<br>
-                拼写练习：</span><input type="text">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
             <li style="background-color:red"><span style="color:white">red ：红色<br>
-                拼写练习：</span><input type="">
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
             </li>
-            <li style="background-color:purple"><span style="color:white">purple ：紫色<br>
-                拼写练习：</span><input type="">
-            </li>          
              <li style="background-color:fuchsia"><span style="color:white">fuchsia :紫红色<br>
-                 拼写练习：</span><input type="text">
+                 拼写练习：</span><input type="text"> <input type="text"> <input type="text">
              </li>
-         </ol>
+             <li style="background-color:purple"><span style="color:white">purple ：紫色<br>
+                拼写练习：</span><input type="text"> <input type="text"> <input type="text">
+            </li>          
+         
+         
+         
+            </ol>
+         
+
 
     </body>
 </html>

@@ -1,0 +1,11 @@
+h1,h2{
+    text-align: center;
+    background-color: #A9A9A9;
+}
+header{
+    background-color:#A9A9A9; 
+    font-size: x-large;
+}
+pre{
+    font-size: large;
+}
