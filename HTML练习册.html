@@ -9,8 +9,11 @@
      <header>
         <h1>HTML练习册</h1>
      </header>
-         <h2>HTML CSS</h2>
-         <hr>
+     <main>
+         <article>
+              <section><!--HTML CSS-->
+             <h2>HTML CSS</h2>
+             <hr>
          <h3>style ：定义样式定义</h3>
          <ol>
              <li>background-color属性为元素定义了背景颜色。
@@ -54,8 +57,10 @@
                  <pre>link rel="stylesheet" type="text/css" href="theme.css"</pre>
                  拼写练习：<input type="text">  
              </li>
-         </ol>
-         <hr>
+         </ol>         
+            <hr>
+             </section>
+             <section><!--HTML文本格式化-->
          <h2>HTML文本格式化</h2>
          <hr>
          <h3>基于内容含义的样式</h3>
@@ -158,6 +163,8 @@
              </li> 
             </ol>
             <hr>
+             </section>
+             <section><!--浏览器支持的颜色名合集-->
          <h2>浏览器支持的颜色名合集</h2>
          <hr>
          <ol>
@@ -212,11 +219,43 @@
              <li style="background-color:purple"><span style="color:white">purple ：紫色<br>
                 拼写练习：<input type="text"></span>  
             </li>          
-         
-         
-         
             </ol>
-         
+             </section>
+             <section><!--HTML链接-->
+                <h2>HTML链接</h2>
+                <ol>
+                <li>超链接可以是一个字，一个词，或者一组词，也可以是一幅图像，您可以点击这些内容来跳转到新的文档或者当前文档中的某个部分。
+                <pre>a href="http://www.baidu.com"</pre>
+                拼写练习：<input type="text">
+                </li>
+                <li>Target 属性，你可以定义被链接的文档在何处显示。如果把链接的 target 属性设置为 "_blank"，该链接会在新窗口中打开。
+                    <pre>a href="http://www.baidu.com" target="_blank"</pre>
+                    拼写练习：<input type="text">
+                </li>
+                <li>name 属性规定锚(anchor)的名称。您可以使用 name 属性创建 HTML 页面中的书签。书签不会以任何特殊方式显示，它对读者是不可见的。锚的名称可以是任何你喜欢的名字。您可以使用 id 属性来替代 name 属性，命名锚同样有效。
+                    <pre>a name="" herf="" target=""</pre>
+                    拼写练习：<input type="text">
+                </li>
+                <li>链接到同一个页面的不同位置,本例演示如何使用链接跳转至文档的另一个部分
+                    <pre>&lt;a name="#查找的链接的名称"&gt;查找链接的名称&lt;/a&gt;</pre>
+                    拼写练习：<input type="text">
+                </li>              
+                <li> 跳出框架本例演示如何跳出框架，假如你的页面被固定在框架之内。
+                    <pre>a href="" target="_top"</pre>
+                    拼写练习：<input type="text">
+                </li>          
+                <li>HTML a标签的 download 属性规定被下载的超链接目标。在 a标签中必须设置 href 属性。该属性也可以设置一个值来规定下载文件的名称。所允许的值没有限制，浏览器将自动检测正确的文件扩展名并添加到文件 (.img, .pdf, .txt, .html, 等等)。
+                  <a href="images/cs.png" download="cs" >下载</a>  
+                </li> 
+            </ol>
+
+             </section>
+
+        </article>
+     </main>
+     <footer>
+
+     </footer>         
 
 
     </body>
